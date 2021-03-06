@@ -6,9 +6,11 @@
 </head>
 <body>
 <h1> Word Count : {{ len }} word(s) in your text</h1>
+
 <a href="{% url 'home' %}">restart count</a>
 
-<a href="{% url 'home' %}">help</a>
+<a href="{% url 'help' %}">help</a>
+
 <h2> your words:</h2>
 {{ words }}
 </body>
