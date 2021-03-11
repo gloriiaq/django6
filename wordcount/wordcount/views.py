@@ -24,3 +24,7 @@ def countword(request):
 
 def help(request):
     return render(request, 'help.html')
+
+
+def static(request):
+    return render(request, 'static.html')

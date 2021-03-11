@@ -22,4 +22,5 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('wordcount', views.countword, name='count'),
     path('help/', views.help, name='help'),
+    path('static/', views.static, name='static'),
 ]
